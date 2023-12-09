@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.steveplays28.noisium.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChainedBlockSourceMixin",
+    "ChunkSectionMixin",
+    "NoiseChunkGeneratorMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
